@@ -1,0 +1,119 @@
+/* .movie
+{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.873);
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .movie h2 {
+    font-size: 2rem;
+    color: #030303;
+  }
+  
+  .movie h3 {
+    color: #484848;
+    margin: 0;
+    font-size: 1rem;
+  }
+  .image-container
+  {
+    margin-inline: auto;
+  }
+  .image-container p
+  {
+    color: #030303;
+    font-weight: bold;
+  }
+  .image-container img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+  } */
+
+  section.sec
+  {
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 2rem;
+   
+  }
+  .article
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: auto;
+    position: relative;
+    top: -30px;
+    height: 202px;
+  }
+  .card {
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.16), 1px 1px 1px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(93, 188, 252, 0.3);
+    border-radius: 25px;
+    transition: 0.3s;
+    background-color:  rgb(181, 184, 149);
+    margin-bottom: 1rem;
+    
+  }
+  .card:hover {
+    border: 1px solid #460897;
+    /* background-color: rgba(246, 246, 246); */
+    rotate: 1deg;
+    scale: 1.01;
+    cursor: pointer;
+  }
+  
+  .card .image {
+    display: flex;
+    padding: 1rem;
+    margin-inline: auto;
+    border-radius: 45px;
+    width: 170px;
+    height: 150px;
+    
+  }
+  
+  .card .box {
+    padding: 1rem;
+  }
+  
+  .card .box .title {
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .card .box .desc {
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .card .box .price
+  {
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid #460897;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  color: #ffff;
+  background-color:green;
+  padding: 0.4rem;
+  position: relative;
+  top: 20px;
+  }
+  .card .btn
+  {
+    position: relative;
+    top: -5px;
+    
+  }
